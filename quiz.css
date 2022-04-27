@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: grey;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.container{
+    width: 600px;
+    box-shadow: 0 0 5px 5px #fff;
+    padding: 10px;
+    background: #fff;
+    text-align: left;
+}
+.container .question{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container ul{
+    list-style: none;
+    padding: 5px 0;
+}
+.container ul li{
+    font-size: 1.2rem;
+    padding: 7px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.container ul li label{
+    cursor: pointer;
+    padding: 0 10px;
+}
+.btn{
+    cursor: pointer;
+    width: 60%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color: #000;
+    background: deepskyblue;
+    font-size: 1.1rem;
+}
+button{
+    margin: 6px 0;
+    cursor: pointer;
+    border-radius: 9px;
+    outline: 0;
+    border: none;
+    padding: 4px;
+    width: 60%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background: deepskyblue;
+}
